@@ -1,0 +1,54 @@
+table.pianoroll {
+    border-collapse: collapse;
+}
+
+table.pianoroll tr:nth-child(12n) td {
+    border-bottom-color: darkred;
+}
+
+table.pianoroll tr th {
+    border: solid 1px black;
+    height: 8px;
+    max-height: 8px;
+    width: 40px;
+    color: darkkhaki;
+    font-size: 7pt;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+table.pianoroll tr:nth-child(12n+2)  th,
+table.pianoroll tr:nth-child(12n+4)  th,
+table.pianoroll tr:nth-child(12n+6)  th,
+table.pianoroll tr:nth-child(12n+9)  th,
+table.pianoroll tr:nth-child(12n+11) th
+{
+    background-color: black;
+    color: yellow;
+}
+
+table.pianoroll tr:nth-child(12n+2)  td,
+table.pianoroll tr:nth-child(12n+4)  td,
+table.pianoroll tr:nth-child(12n+6)  td,
+table.pianoroll tr:nth-child(12n+9)  td,
+table.pianoroll tr:nth-child(12n+11) td {
+    background-color: #eee;
+}
+
+table.pianoroll td {
+    border: solid 1px lightgrey;
+    height: 8px;
+    width: 9px;
+}
+
+table.pianoroll td.newtime {
+    border-left-width: 2px;
+}
+
+table.pianoroll td.newbar {
+    border-left-color: darkblue;
+}
+
+table.pianoroll td.note {
+    background-color: green;
+}
