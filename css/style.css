@@ -1,5 +1,6 @@
 table.pianoroll {
     border-collapse: collapse;
+    user-select: none;
 }
 
 table.pianoroll tr:nth-child(12n) td {
@@ -49,6 +50,7 @@ table.pianoroll td.newbar {
     border-left-color: darkblue;
 }
 
-table.pianoroll td.note {
-    background-color: green;
+table.pianoroll td.note
+{
+    background-color: green !important;
 }
